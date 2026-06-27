@@ -1,44 +1,37 @@
-# Superfit
-
-Landing page for a fitness gym (Superfit).  
-The project demonstrates frontend development skills with responsive layout, interactive components, and multilingual support.
-
-/css
-/js
-/img
-/fonts
-index.html
 
 ## Features
 
-- Responsive layout for mobile, tablet, and desktop
+- Fully responsive layout (mobile, tablet, desktop)
 - Multilingual support (UA / EN)
-- Interactive image gallery
-- Slider component for gym space showcase
+- Interactive image gallery with lightbox
+- Splide.js slider for gym showcase
 - Mobile burger menu
 - Sticky header with scroll effects
-- Smooth scrolling navigation
+- Smooth anchor navigation
+- Dynamic language switching via JavaScript
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (Flexbox, Grid)
+- CSS3 (Flexbox, Grid, responsive design)
 - Vanilla JavaScript (ES6+)
-- Splide.js
-- GLightbox
+- Splide.js (carousel)
+- GLightbox (image popup)
+- LocalStorage (language saving)
 
 ## Description
 
-This project was created as a frontend practice task.  
-Focus was made on UI structure, adaptive design, and integration of third-party libraries.
+This project was built as a frontend practice task.  
+The main focus was on creating a clean responsive layout and implementing interactive UI components without frameworks.
 
-The site is fully responsive and optimized for different screen sizes.
+The site adapts to different screen sizes and includes a simple multilingual system using data attributes and JavaScript logic.
 
 ## Notes
 
-- First experience using Splide.js and GLightbox
-- No frameworks used (pure HTML/CSS/JS)
-- Multilingual system implemented via data attributes and JavaScript
+- First experience working with Splide.js and GLightbox
+- No frameworks used (pure HTML, CSS, JavaScript)
+- Multilingual system implemented without page reload
+- Optimized for responsive behavior and UI interactions
 
 ## Author
 
