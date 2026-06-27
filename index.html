@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superfit</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header ">
+        <div class="container header__inner">
+            <a class="logo" href="/">
+                superfit
+            </a>
+
+            <div class="header__menu">
+                <ul class="header__list">
+                    <li class="header__menu-item"><a class="header__menu-link" href="#about" data-key="menuAbout">Про
+                            нас</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#features"
+                            data-key="menuFeatures">Переваги</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#gym"
+                            data-key="menuGallery">Галерея</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" href="#signup"
+                            data-key="menuContacts">Контакти</a></li>
+                </ul>
+            </div>
+
+            <a class="header__phone" href="tel:+38093647321">
+                <img class="icon" src="./img/svg/icon_phone.svg" alt="Phone icon">
+                +38 093 64 73 21
+            </a>
+
+            <div class="lang">
+                <button class="lang__btn" data-lang="ua">UA</button>
+                <button class="lang__btn" data-lang="en">EN</button>
+            </div>
+
+            <button class="header__burger" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!--mobile nav-->
+
+
+            <div class="mobile__inner">
+                <a class="mobile__logo logo" href="#!">superfit</a>
+                <nav class="mobile__nav">
+                    <ul class="mobile__nav-list">
+                        <!--first item-->
+                        <li class="mobile__nav-item">
+                            <a class="mobile__nav-link" href="#about" data-key="menuAbout">
+                                Про нас
+                            </a>
+                        </li>
+                        <!--second item-->
+                        <li class="mobile__nav-item">
+                            <a class="mobile__nav-link" href="#features" data-key="menuFeatures">
+                                Переваги
+                            </a>
+                        </li>
+                        <!--third item-->
+                        <li class="mobile__nav-item">
+                            <a class="mobile__nav-link" href="#gym" data-key="menuGallery">
+                                Галерея
+                            </a>
+                        </li>
+                        <!--fourth item-->
+                        <li class="mobile__nav-item">
+                            <a class="mobile__nav-link" href="#signup" data-key="menuContacts">
+                                Контакти
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <!---====== main ======-->
+    <main class="main">
+        <!-- =============== hero ================= -->
+        <section class="hero section">
+            <div class="container">
+                <h1 class="hero__title title" data-key="heroTitle">
+                    Відкрийте для себе Superfit, де ваші прагнення перетворюються на досягнення!
+                </h1>
+            </div>
+        </section>
+        <!-- =============== about =================== -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about__inner section__inner">
+                    <div class="about__media">
+                        <img class="about__img" src="./img/about-1.webp"
+                            alt="Жінки стоять у спортзалі з пляшками води та посміхаються">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="about__title title" data-key="aboutTitle">Ласкаво Просимо До Тренажерного Залу
+                            Superfit!</h2>
+                        <div class="about__text">
+                            <p data-key="aboutText1">У Superfit ми прагнемо допомогти вам досягти ваших фітнес-цілей і
+                                вести більш здоровий і
+                                активни спосіб життя. Наші найсучасніші засоби, досвідчені тренери та різноманітні
+                                фітнес-програми роблят нас ідеальним місцем для любителів фітнесу будь-якого рівня.</p>
+                            <p data-key="aboutText2">Наша команда сертифікованих тренерів захоплена фітнесом і віддана
+                                вашому успіху.
+                                Незалежно ві
+                                того, чи ви новачок у тренуваннях, чи досвідчений спортсмен, наші тренери тут, щоб
+                                надати
+                                індивідуальні рекомендації, створити індивідуальні плани тренувань і дати цінні поради
+                                для
+                                досягнення максимальних результатів.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============== benefits =================== -->
+        <section class="benefits section">
+            <div class="container">
+                <div class="benefits__inner section__inner">
+                    <div class="benefits__content">
+                        <h2 class="benefits__title title" data-key="benefitsTitle">Наші Переваги:</h2>
+                        <div class="benefits__text">
+                            <p data-key="benefitsText1">Ми віримо, що різноманітність є ключем до підтримки мотивації та
+                                досягнення стійких
+                                результа Ось чому ми пропонуємо широкий вибір фітнес-програм, включаючи високоінтенсивні
+                                інтервал тренування (HIIT), силові тренування, групові заняття фітнесом, йогу тощо.
+                                Незалежно від ваших уподобань чи фітнес-цілей, у нас є програма, яка вам підходить.</p>
+                            <p data-key="benefitsText2">Приєднуйтеся до спільноти однодумців, які поділяють вашу
+                                відданість фітнесу. Наш трев зал
+                                - це не просто місце для тренувань це місце для спілкування, пошуку мотивації та с
+                                святкування ваших успіхів. Незалежно від того, потієте ви на груповому занятті чи розши
+                                межі у тренажерному залі, вас буде оточувати підтримуюче та надихаюче середовище.</p>
+                            <p data-key="benefitsText3">У нас ви знайдете сучасний і добре обладнаний тренажерний зал,
+                                який задовольнить усі ваші
+                                фі потреби. Від найсучасніших кардіотренажерів до повного вибору вільної ваги та
+                                обладнання дл. силових тренувань, у нас є все необхідне для створення збалансованої
+                                програми тренувань.</p>
+                        </div>
+                    </div>
+                    <div class="benefits__media">
+                        <img class="benefits__img" src="./img/benefits-1.webp"
+                            alt="Люди виконують тренування у спортзалі">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============== gym =================== -->
+        <section class="gym section" id="gym">
+            <div class="container">
+                <h2 class="gym__title title" data-key="gymTitle">
+                    Простір залу:
+                </h2>
+                <div class="splide gym__slider">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+
+                            <!-- first image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-1.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-1.webp" data-alt="gymImg1" alt="Інтер'єр сучасного тренажерного залу Superfit">
+                                </a>
+                            </li>
+                            <!-- second image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-2.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-2.webp" data-alt="gymImg2" alt="Кардіо зона з біговими доріжками">
+                                </a>
+                            </li>
+                            <!-- third image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-3.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-3.webp" data-alt="gymImg3" alt="Зона силових тренажерів">
+                                </a>
+                            </li>
+                            <!-- fourth image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-4.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-4.webp" data-alt="gymImg4" alt="Кардіо та силова зона сучасного тренажерного залу">
+                                </a>
+                            </li>
+                            <!-- fifth image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-5.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-5.webp" data-alt="gymImg5"
+                                        alt="Простір тренажерного залу з гантелями та тренажерами">
+                                </a>
+                            </li>
+                            <!-- sixth image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-6.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-6.webp" data-alt="gymImg6" alt="Люди займаються фітнесом у тренажерному залі">
+                                </a>
+                            </li>
+                            <!-- seventh image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-7.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-7.webp" data-alt="gymImg7"
+                                        alt="Групове тренування з гантелями у тренажерному залі">
+                                </a>
+                            </li>
+                            <!-- eighth image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-8.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-8.webp" data-alt="gymImg8" alt="Силове тренування з гантелями та штангою">
+                                </a>
+                            </li>
+                            <!-- ninth image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-9.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-9.webp" data-alt="gymImg9"
+                                        alt="Відпочинкова зона спортзалу, люди спілкуються та п’ють воду">
+                                </a>
+                            </li>
+                            <!-- tenth image -->
+                            <li class="splide__slide">
+                                <a href="./img/gym-10.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym-10.webp" data-alt="gymImg10"
+                                        alt="Відвідувачі тренажерного залу усміхаються після тренування">
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============== cta =================== -->
+        <section class="cta section">
+            <div class="container">
+                <h2 class="visually-hidden"> Розпочніть тренування в Superfit</h2>
+                <div class="cta__content">
+                    <p class="cta__desc" data-key="ctaText">
+                        Ми розуміємо, що життя може бути насиченим, тому ми пропонуємо гнучкі варіанти членства.
+                        Виберіть
+                        план, який відповідає вашому розкладу та фітнес-цілям.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- =============== features =================== -->
+
+        <section class="features section" id="features">
+            <div class="container">
+                <h2 class="visually-hidden">Переваги</h2>
+
+                <div class="features__inner">
+                    <!-- first item -->
+                    <article class="features__item">
+                        <img class="features__icon" src="./img/svg/feature__item-1.svg" alt="">
+                        <h3 class="features__title title" data-key="feature1Title">Вирушайте до величі</h3>
+                        <p class="features__desc" data-key="feature1Text">Ваша фітнес-мандрівка починається зараз.
+                            Відчуйте трансформацію, яку можуть принести відданість, керівництво та спільнота.
+                            Приєднуйтесь до Тренажерного залу Superfit розгадайте найкращу версію себе. Ваші цілі -наша
+                            місія, і разом ми переглянемо ваші межі т відсвяткуємо ваші перемоги.</p>
+                    </article>
+                    <!-- second item -->
+                    <article class="features__item">
+                        <img class="features__icon" src="./img/svg/feature__item-2.svg" alt="">
+                        <h3 class="features__title title" data-key="feature2Title">Нова гнучкість</h3>
+                        <p class="features__desc" data-key="feature2Text">Ми розуміємо вимоги життя, тому наші плани
+                            членства розроблені таким
+                            чином, щоб адаптуватися до вашого розкладу. Виберіть тривалість членства, яка вам підходить,
+                            незалежно від того, чи є ви відданим довгостроковим досягненням чи орієнтованим на мету
+                            короткостроковим воїном.</p>
+                    </article>
+                    <!-- third item -->
+                    <article class="features__item">
+                        <img class="features__icon" src="./img/svg/feature__item-3.svg" alt="">
+                        <h3 class="features__title title" data-key="feature3Title">Підживлюйте свою мотивацію</h3>
+                        <p class="features__desc" data-key="feature3Text">У Superfit ви не просто учасник ви є частиною
+                            спільноти підтримки.
+                            Попотійте разом із іншими любителями фітнесу, обмінюйтеся історіями тріумфу та знаходьте
+                            натхнення в кожній краплі поту. Наш спортзал це місце, де дружать і разом досягають цілей.
+                        </p>
+                    </article>
+                    <!-- fourth item -->
+                    <article class="features__item">
+                        <img class="features__icon" src="./img/svg/feature__item-4.svg" alt="">
+                        <h3 class="features__title title" data-key="feature4Title">Керівництво від професіоналів</h3>
+                        <p class="features__desc" data-key="feature4Text">Наша команда досвідчених тренерів не просто
+                            обізнана, вони захоплені
+                            зміною життя за допомогою фітнесу. Якщо ви формуєте свою фігуру, підвищуєте витривалість або
+                            тренуєтеся для певного виду спорту, наші тренери розроблять індивідуальні плани, щоб
+                            забезпечити досягнення ваших цілей.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- =============== signup =================== -->
+        <section class="signup section" id="signup">
+            <div class="container">
+
+                <h2 class="signup__title title" data-key="signupTitle">Почніть свій шлях у Superfit</h2>
+
+                <div class="signup__content">
+
+                    <form class="signup__form" action="#" method="post">
+
+                        <div class="signup__row">
+
+                            <!-- name -->
+                            <div class="signup__field">
+                                <label class="signup__label" for="name" data-key="nameLabel">Ім’я</label>
+                                <input class="signup__input" type="text" id="name" name="name"
+                                    data-placeholder="namePlaceholder" placeholder="Ваше ім’я" required>
+                            </div>
+
+                            <!-- phone (очень желательно для фитнеса) -->
+                            <div class="signup__field">
+                                <label class="signup__label" for="phone" data-key="phoneLabel">Телефон</label>
+                                <input class="signup__input" type="tel" id="phone" name="phone"
+                                    data-placeholder="phonePlaceholder" placeholder="+38..." required>
+                            </div>
+
+                        </div>
+
+                        <!-- optional message -->
+                        <div class="signup__field">
+                            <label class="signup__label" for="message" data-key="messageLabel">
+                                Є питання? (не обов’язково)
+                            </label>
+
+                            <textarea class="signup__textarea" id="message" name="message"
+                                data-placeholder="messagePlaceholder" rows="5" placeholder="Напишіть тут..."></textarea>
+                        </div>
+
+                        <!-- btn -->
+                        <button class="signup__btn" type="submit" data-key="submitBtn">
+                            Відправити
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!--======= footer ======-->
+    <footer class="footer section" id="contact">
+        <div class="container">
+
+            <div class="footer__top">
+
+                <div class="footer__contacts">
+
+                    <h2 class="footer__title title" data-key="footerTitle">Контакти</h2>
+
+                    <a class="footer__item" href="#!">
+                        <img class="footer__icon icon" src="./img/svg/icon_location.svg" alt="">
+                        <span data-key="addressText">
+                            вулиця Братиславська, 14-Б, Київ, Україна, 02166
+                        </span>
+
+                    </a>
+
+                    <a class="footer__item" href="tel:+38093647321">
+                        <img class="footer__icon icon" src="./img/svg/icon_phone_footer.svg" alt="">
+                        +38 093 64 73 21
+                    </a>
+
+                    <a class="footer__item" href="mailto:info@superfit.ua">
+                        <img class="footer__icon icon" src="./img/svg/icon_mail.svg" alt="">
+                        info@superfit.ua
+                    </a>
+
+                </div>
+
+                <div class="footer__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1069.2517715294675!2d30.532131689028986!3d50.40153354347924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf00386ab139%3A0xed66fc77f7658154!2z0JrRltC80L3QsNGC0LAgODIzICjQkNC00LzRltC90ZbRgdGC0YDQsNGG0ZbRjyk!5e0!3m2!1sde!2sua!4v1758693463204!5m2!1sde!2sua"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Карта розташування офісу G&G">
+                    </iframe>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+
+                <p class="footer__copyright" data-key="copyright">
+                    © 2026 Superfit. Усі права захищені.
+                </p>
+
+                <a class="footer__privacy" href="#" data-key="privacy">
+                    Політика конфіденційності
+                </a>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
