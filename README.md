@@ -41,6 +41,10 @@ The website adapts to different screen sizes and includes a multilingual system 
 * Optimized for desktop and mobile devices
 * All images used in the project were AI-generated
 
+## Preview
+
+![SuperFit Preview](./screenshots/preview.webp)
+
 ## Author
 
 Frontend practice project by Mikhail.
