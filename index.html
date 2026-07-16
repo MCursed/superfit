@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Superfit</title>
+    <title>SuperFit | Modern Fitness Club</title>
+    <meta name="description"
+        content="SuperFit is a modern fitness club offering professional trainers, strength and cardio zones, group classes, and personal training programs.">
+    <link rel="preload" as="image" href="./img/hero/background.webp">
     <link rel="icon" href="./img/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
@@ -104,8 +107,12 @@
             <div class="container">
                 <div class="about__inner section__inner">
                     <div class="about__media">
-                        <img class="about__img" src="./img/about-1.webp"
-                            alt="Жінки стоять у спортзалі з пляшками води та посміхаються">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="./img/about/about-1-small.webp">
+                            <img class="about__img" src="./img/about/about-1.webp"
+                                alt="Жінки стоять у спортзалі з пляшками води та посміхаються" width="1086"
+                                height="1448">
+                        </picture>
                     </div>
                     <div class="about__content">
                         <h2 class="about__title title" data-key="aboutTitle">Ласкаво Просимо До Тренажерного Залу
@@ -154,8 +161,11 @@
                         </div>
                     </div>
                     <div class="benefits__media">
-                        <img class="benefits__img" src="./img/benefits-1.webp"
-                            alt="Люди виконують тренування у спортзалі">
+                        <picture>
+                            <source media="(max-width: 600px)" srcset="./img/benefits/benefits-1-small.webp">
+                            <img class="benefits__img" src="./img/benefits/benefits-1.webp"
+                                alt="Люди виконують тренування у спортзалі" width="1086" height="1448">
+                        </picture>
                     </div>
                 </div>
             </div>
@@ -172,74 +182,109 @@
 
                             <!-- first image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-1.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-1.webp" data-alt="gymImg1"
-                                        alt="Інтер'єр сучасного тренажерного залу Superfit">
+                                <a href="./img/gym/gym-1.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-1-small.webp" srcset="
+                                                                ./img/gym/gym-1-small.webp 800w,
+                                                                ./img/gym/gym-1.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Інтер'єр сучасного тренажерного залу Superfit" width="1448" height="1086">
                                 </a>
                             </li>
                             <!-- second image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-2.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-2.webp" data-alt="gymImg2"
-                                        alt="Кардіо зона з біговими доріжками">
+                                <a href="./img/gym/gym-2.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-2-small.webp" srcset="
+                                                                ./img/gym/gym-2-small.webp 800w,
+                                                                ./img/gym/gym-2.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Кардіо зона з біговими доріжками" width="1448" height="1086">
                                 </a>
                             </li>
                             <!-- third image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-3.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-3.webp" data-alt="gymImg3" alt="Зона силових тренажерів">
+                                <a href="./img/gym/gym-3.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-3-small.webp" srcset="
+                                                                ./img/gym/gym-3-small.webp 800w,
+                                                                ./img/gym/gym-3.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Зона силових тренажерів" width="1448" height="1086">
                                 </a>
                             </li>
                             <!-- fourth image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-4.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-4.webp" data-alt="gymImg4"
-                                        alt="Кардіо та силова зона сучасного тренажерного залу">
+                                <a href="./img/gym/gym-4.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-4-small.webp" srcset="
+                                                                ./img/gym/gym-4-small.webp 800w,
+                                                                ./img/gym/gym-4.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Кардіо та силова зона сучасного тренажерного залу" width="1448"
+                                        height="1086">
                                 </a>
                             </li>
                             <!-- fifth image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-5.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-5.webp" data-alt="gymImg5"
-                                        alt="Простір тренажерного залу з гантелями та тренажерами">
+                                <a href="./img/gym/gym-5.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-5-small.webp" srcset="
+                                                                ./img/gym/gym-5-small.webp 800w,
+                                                                ./img/gym/gym-5.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Простір тренажерного залу з гантелями та тренажерами" width="1448"
+                                        height="1086">
                                 </a>
                             </li>
                             <!-- sixth image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-6.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-6.webp" data-alt="gymImg6"
-                                        alt="Люди займаються фітнесом у тренажерному залі">
+                                <a href="./img/gym/gym-6.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-6-small.webp" srcset="
+                                                                ./img/gym/gym-6-small.webp 800w,
+                                                                ./img/gym/gym-6.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Люди займаються фітнесом у тренажерному залі" width="1448" height="1086">
                                 </a>
                             </li>
                             <!-- seventh image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-7.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-7.webp" data-alt="gymImg7"
-                                        alt="Групове тренування з гантелями у тренажерному залі">
+                                <a href="./img/gym/gym-7.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-7-small.webp" srcset="
+                                                                ./img/gym/gym-7-small.webp 800w,
+                                                                ./img/gym/gym-7.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Групове тренування з гантелями у тренажерному залі" width="1448"
+                                        height="1086">
                                 </a>
                             </li>
                             <!-- eighth image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-8.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-8.webp" data-alt="gymImg8"
-                                        alt="Силове тренування з гантелями та штангою">
+                                <a href="./img/gym/gym-8.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-8-small.webp" srcset="
+                                                                ./img/gym/gym-8-small.webp 800w,
+                                                                ./img/gym/gym-8.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Силове тренування з гантелями та штангою" width="1448" height="1086">
                                 </a>
                             </li>
                             <!-- ninth image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-9.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-9.webp" data-alt="gymImg9"
-                                        alt="Відпочинкова зона спортзалу, люди спілкуються та п’ють воду">
+                                <a href="./img/gym/gym-9.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-9-small.webp" srcset="
+                                                                ./img/gym/gym-9-small.webp 800w,
+                                                                ./img/gym/gym-9.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Відпочинкова зона спортзалу, люди спілкуються та п’ють воду" width="1448"
+                                        height="1086">
                                 </a>
                             </li>
                             <!-- tenth image -->
                             <li class="splide__slide">
-                                <a href="./img/gym-10.webp" class="glightbox" data-gallery="gym">
-                                    <img src="./img/gym-10.webp" data-alt="gymImg10"
-                                        alt="Відвідувачі тренажерного залу усміхаються після тренування">
+                                <a href="./img/gym/gym-10.webp" class="glightbox" data-gallery="gym">
+                                    <img src="./img/gym/gym-10-small.webp" srcset="
+                                                                ./img/gym/gym-10-small.webp 800w,
+                                                                ./img/gym/gym-10.webp 1448w"
+                                        sizes="(max-width: 760px) 100vw, 478px" data-alt="gymImg1"
+                                        alt="Відвідувачі тренажерного залу усміхаються після тренування" width="1448"
+                                        height="1086">
                                 </a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -388,11 +433,13 @@
                 </div>
 
                 <div class="footer__map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1069.2517715294675!2d30.532131689028986!3d50.40153354347924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf00386ab139%3A0xed66fc77f7658154!2z0JrRltC80L3QsNGC0LAgODIzICjQkNC00LzRltC90ZbRgdGC0YDQsNGG0ZbRjyk!5e0!3m2!1sde!2sua!4v1758693463204!5m2!1sde!2sua"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" title="Карта розташування офісу G&G">
-                    </iframe>
+                    <div class="map-preview">
+                        <img src="./img/map/map-preview.webp" alt="Карта розташування SuperFit" class="footer__map-img">
+
+                        <button class="map-preview__btn">
+                            Відкрити карту
+                        </button>
+                    </div>
                 </div>
 
             </div>
